@@ -14,14 +14,13 @@ import numpy as np
 from transforms3d.euler import euler2axangle
 from transformers import AutoModelForVision2Seq, AutoProcessor
 
-
-from vla import load_vla
-from sim_cogact.adaptive_ensemble import AdaptiveEnsembler
+from CogACT.vla import load_vla
+from simpler_env.policies.sim_cogact.adaptive_ensemble import AdaptiveEnsembler
 
 class CogACTInference:
     def __init__(
         self,
-        saved_model_path: str = 'CogACT/CogACT-Base',
+        saved_model_path: str = "CogACT/CogACT-Small",
         unnorm_key: Optional[str] = None,
         policy_setup: str = "widowx_bridge",
         horizon: int = 0,
@@ -29,7 +28,7 @@ class CogACTInference:
         image_size: list[int] = [224, 224],
         future_action_window_size: int = 15,
         action_dim: int = 7,
-        action_model_type: str = "DiT-L",
+        action_model_type: str = "DiT-S",
         action_scale: float = 1.0,
         cfg_scale: float = 1.5,
         use_ddim: bool = True,

@@ -35,9 +35,9 @@ We hope that our work guides and inspires future real-to-sim evaluation efforts.
 | -----------  | -----  | -----  |
 | Octo         | ✅     |        |
 | RT1          | ✅     |        |
-| OpenVLA      | ✅     |        |
-| CogACT       | ✅     | OpenVLA-based         |
-| SpatialVLA   | ✅     | transformers >= 4.47.0|
+| OpenVLA      | ✅     |    (Out of CUDA memory 4070 12GB)    |
+| CogACT       | ✅     | OpenVLA-based (Out of CUDA memory 4070 12GB)        |
+| SpatialVLA   | ✅     | transformers == 4.47.0|
 | Pi0          | testing| lerobot|
 | Pi0-Fast     | testing| uv|
 
