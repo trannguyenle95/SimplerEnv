@@ -31,15 +31,20 @@ We hope that our work guides and inspires future real-to-sim evaluation efforts.
   - [Citation](#citation)
 
 ## Models
+> [!NOTE]
+> To support state input, we use the submodule `ManiSkill2_real2sim` from https://github.com/allenzren/ManiSkill2_real2sim
+
 | Model Name   | support | Note  |
 | -----------  | -----  | -----  |
 | Octo         | ✅     |        |
 | RT1          | ✅     |        |
 | OpenVLA      | ✅     |        |
 | CogACT       | ✅     | OpenVLA-based         |
-| SpatialVLA   | ✅     | transformers >= 4.47.0|
-| Pi0          | testing| lerobot|
-| Pi0-Fast     | testing| uv|
+| SpatialVLA   | ✅     | [transformers == 4.47.0](https://github.com/SpatialVLA/SpatialVLA) |
+| Pi0/Pi0-Fast (openpi version) | ✅     | [openpi](https://github.com/Physical-Intelligence/openpi) |
+| Pi0/Pi0-Fast (lerobot version)     | ✅ | [lerobot](https://github.com/huggingface/lerobot) |
+
+
 
 ## Getting Started
 
