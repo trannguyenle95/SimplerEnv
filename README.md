@@ -32,6 +32,14 @@ We hope that our work guides and inspires future real-to-sim evaluation efforts.
 
 ## Models
 > [!NOTE]
+> Hello everyone!
+> This repository has now fully opened issues and discussions. We warmly welcome you to: 🤗
+> Discuss any problems you encounter 🙋
+> Submit fixes ✅
+> Support new models! 🚀
+> Given the significant environmental differences across various models and the specific dependencies required for simulator rendering, I will soon provide a Docker solution and a benchmark performance table. I’ll also do my best to address any issues you run into.
+> Thank you for your support and contributions! 🎉
+>
 > To support state input, we use the submodule `ManiSkill2_real2sim` from https://github.com/allenzren/ManiSkill2_real2sim
 
 | Model Name   | support | Note  |
