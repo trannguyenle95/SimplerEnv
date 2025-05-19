@@ -43,7 +43,7 @@ We hope that our work guides and inspires future real-to-sim evaluation efforts.
 | SpatialVLA   | ✅     | [transformers == 4.47.0](https://github.com/SpatialVLA/SpatialVLA) |
 | Pi0/Pi0-Fast (openpi version) | ✅     | [openpi](https://github.com/Physical-Intelligence/openpi) |
 | Pi0/Pi0-Fast (lerobot version)     | ✅ | [lerobot](https://github.com/huggingface/lerobot) |
-| GR00T     | testing | [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+| GR00T     | ✅ | [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
 
 
 
