@@ -31,15 +31,29 @@ We hope that our work guides and inspires future real-to-sim evaluation efforts.
   - [Citation](#citation)
 
 ## Models
+> [!NOTE]
+> Hello everyone!
+> This repository has now fully opened issues and discussions. We warmly welcome you to: 🤗
+> Discuss any problems you encounter 🙋
+> Submit fixes ✅
+> Support new models! 🚀
+> Given the significant environmental differences across various models and the specific dependencies required for simulator rendering, I will soon provide a Docker solution and a benchmark performance table. I’ll also do my best to address any issues you run into.
+> Thank you for your support and contributions! 🎉
+>
+> To support state input, we use the submodule `ManiSkill2_real2sim` from https://github.com/allenzren/ManiSkill2_real2sim
+
 | Model Name   | support | Note  |
 | -----------  | -----  | -----  |
 | Octo         | ✅     |        |
 | RT1          | ✅     |        |
-| OpenVLA      | ✅     |    (Out of CUDA memory 4070 12GB)    |
-| CogACT       | ✅     | OpenVLA-based (Out of CUDA memory 4070 12GB)        |
-| SpatialVLA   | ✅     | transformers == 4.47.0|
-| Pi0          | testing| lerobot|
-| Pi0-Fast     | testing| uv|
+| OpenVLA      | ✅     |   (Out of CUDA memory 4070 12GB)     |
+| CogACT       | ✅     | OpenVLA-based (Out of CUDA memory 4070 12GB)         |
+| SpatialVLA   | ✅     | [transformers == 4.47.0](https://github.com/SpatialVLA/SpatialVLA) |
+| Pi0/Pi0-Fast (openpi version) | ✅     | [openpi](https://github.com/Physical-Intelligence/openpi) |
+| Pi0/Pi0-Fast (lerobot version)     | ✅ | [lerobot](https://github.com/huggingface/lerobot) |
+| GR00T     | ✅ | [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T) |
+
+
 
 ## Getting Started
 
